@@ -1,0 +1,24 @@
+{
+  "project": "EDC.EDCDK.Website",
+  "match": { "anyPathExists": ["Edc.Website.WebCore", "Frontend/src/modules"] },
+  "topics": [
+    "React + TypeScript (frontend modules)",
+    "SSR pipeline (entry-server, SsrModule, hydration)",
+    "C# / .NET 10 backend",
+    "Umbraco 17 (Bellissima) CMS",
+    "Converters (Umbraco content -> view models)",
+    "ViewModelBuilderServices / TS->C# view-model bridge",
+    "TanStack Query (data fetching) + Jotai (client state)",
+    "Tailwind CSS + theming (Privat / Erhverv)",
+    "Caching (EasyCaching + Redis backplane)",
+    "Dependency injection & composers"
+  ],
+  "importantAreas": [
+    "Frontend/src/core",
+    "Frontend/src/modules",
+    "Edc.Website.Core/Frontend",
+    "Edc.Website.Core/NodeJsRenderer",
+    "converters",
+    "ViewModelBuilderService"
+  ]
+}
